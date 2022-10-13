@@ -4,12 +4,12 @@ pipeline {
    
   stages {
    
-    stage("build"){
+    stage("build") {
     
       steps {
            ech "building the application"
-//            sh "npm install"
-//            sh "npm run build"
+           sh "npm install"
+           sh "npm run build"
       
       }
     
@@ -19,7 +19,7 @@ pipeline {
     
       steps {
          ech "testing the application"
-//          sh "npm run test"
+         sh "npm run test"
       
       }
     
