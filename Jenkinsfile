@@ -15,6 +15,7 @@ pipeline {
     
       steps {
            echo "building the application"
+           echo "Application Built"
 //            sh 'npm install'
            sh "npm run build"
       
